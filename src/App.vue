@@ -97,7 +97,7 @@
         this.userWon = false
       },
       addQuestion(event){
-        this.quiz(event);
+        this.quiz.push(event);
         //unshift
       }
     }
